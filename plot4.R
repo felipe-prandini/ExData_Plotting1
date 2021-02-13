@@ -25,7 +25,7 @@ png("plot4.png", width = 480, height = 480)
 #Set plotting device for 2 columns and 2 rows
 par(mfrow = c(2,2))
 #make first plot just the same as plot2.r
-with(s_data, plot(Datetime, Global_active_power, xlab = "", ylab = "Global Active Power (kilowatts)", type = "l"))
+with(s_data, plot(Datetime, Global_active_power, xlab = "", ylab = "Global Active Power", type = "l"))
 
 #make second plot
 with(s_data, plot(Datetime, Voltage, xlab = "datetime", ylab = "Voltage", type = "l"))
